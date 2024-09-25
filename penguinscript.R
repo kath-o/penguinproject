@@ -19,3 +19,15 @@ summary(model1)
 ggplot(penguin_data, aes(x = flipper_length_mm, y = body_mass_g, colour = species)) +
   geom_point() +
   stat_smooth(method = "lm")  
+
+ggplot(penguin_data, aes(x = flipper_length_mm, y = body_mass_g, colour = species)) +
+  geom_point() +
+  stat_smooth(method = "lm")  
+
+#git repository 
+
+git remote add origin https://github.com/kath-o/penguin_project.git
+git branch -M main
+git push -u origin main
+
+
